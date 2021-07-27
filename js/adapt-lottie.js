@@ -2,7 +2,7 @@ define( [
 	'core/js/adapt',
 	'core/js/views/componentView',
 	'core/js/models/componentModel',
-	'../libraries/lottie.js',
+	'libraries/lottie',
 ], function( Adapt, ComponentView, ComponentModel, bodymovin ) {
 
 	var LottieView = ComponentView.extend( {
