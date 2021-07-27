@@ -26,9 +26,9 @@
 .lottie-play-pause {
   display: none;
   position: absolute;
-  bottom: @component-padding;
-  right: @component-padding;
-  padding: @button-padding;
+  bottom: @component-padding-hoz;
+  right: @component-padding-hoz;
+  padding: @btn-padding;
   fill: #fff;
   opacity: .3;
   .play-transitions();
@@ -62,7 +62,7 @@
 
 .has-pause {
   .lottie-attribution {
-    @padding: (@component-padding * 2) + (@button-padding * 2) + 16px;
+    @padding: (@component-padding-hoz * 2) + (@btn-padding * 2) + 16px;
     max-width: calc(100% - @padding);
   }
 
